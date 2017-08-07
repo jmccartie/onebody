@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+ruby '2.3.3'
 
 gem 'rails', '4.2.9'
 
@@ -84,4 +85,5 @@ end
 
 group :production do
   gem 'newrelic_rpm'
+  gem 'rails_12factor'
 end
