@@ -2,9 +2,8 @@ source 'https://rubygems.org'
 ruby '2.3.3'
 
 gem 'rails', '4.2.9'
-
-# select the appropriate gem below for your database:
 gem 'pg'
+gem 'puma'
 
 gem 'activerecord-session_store'
 gem 'acts_as_list'
@@ -44,7 +43,6 @@ gem 'sanitize'
 gem 'sass-rails'
 gem 'strong_password'
 gem 'sucker_punch', '~> 1.5.1' # 2.0.x doesn't appear to be compatible with ActiveJob
-gem 'thin'
 gem 'tzinfo-data'
 gem 'uglifier'
 gem 'whenever'
