@@ -29,3 +29,4 @@ Vagrantfile.local
 .gem
 coverage
 cache.tar.gz
+.env
