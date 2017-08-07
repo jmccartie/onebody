@@ -42,7 +42,8 @@ OneBody::Application.configure do
     :storage => :s3,
     # :s3_host_name => 'REMOVE_THIS_LINE_IF_UNNECESSARY',
     :bucket => 'holy-spirit-episcopal-church',
-    :s3_region => 'us-east-1'
+    :s3_region => 'us-east-1',
+    :s3_protocol => :https
   }
 
 
