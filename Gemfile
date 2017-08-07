@@ -3,8 +3,7 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.9'
 
 # select the appropriate gem below for your database:
-gem 'mysql2'
-#gem 'pg'
+gem 'pg'
 
 gem 'activerecord-session_store'
 gem 'acts_as_list'
@@ -34,6 +33,7 @@ gem 'mustache'
 gem 'nokogiri'
 gem 'omniauth-facebook'
 gem 'paperclip'
+gem 'aws-sdk'
 gem 'prawn'
 gem 'pusher'
 gem 'rails_autolink'
@@ -64,13 +64,10 @@ end
 group :development do
   gem 'better_errors'
   gem 'binding_of_caller'
-  gem 'capistrano'
-  gem 'capistrano-bundler'
-  gem 'capistrano-newrelic'
-  gem 'capistrano-rails'
   gem 'observr'
   gem 'quiet_assets'
   gem 'terminal-notifier'
+  gem 'dotenv-rails'
 end
 
 group :development, :test do

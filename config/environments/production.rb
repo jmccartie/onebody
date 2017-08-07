@@ -82,4 +82,14 @@ OneBody::Application.configure do
 
   # Enable async queue processing
   config.active_job.queue_adapter = :sucker_punch
+
+
+  config.paperclip_defaults = {
+    :storage => :s3,
+    :preserve_files => true,
+    # :s3_host_name => 'REMOVE_THIS_LINE_IF_UNNECESSARY',
+    :bucket => 'holy-spirit-episcopal-church',
+    :s3_region => 'us-east-1'
+  }
+
 end

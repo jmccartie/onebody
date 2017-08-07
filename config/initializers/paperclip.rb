@@ -1,6 +1,6 @@
 PAPERCLIP_PHOTO_OPTIONS = {
-  path: ":rails_root/public/system/:rails_env/:class/:attachment/:id/:style/:fingerprint.:extension",
-  url:  "/system/:rails_env/:class/:attachment/:id/:style/:fingerprint.:extension",
+  # path: ":rails_root/public/system/:rails_env/:class/:attachment/:id/:style/:fingerprint.:extension",
+  # url:  "/system/:rails_env/:class/:attachment/:id/:style/:fingerprint.:extension",
   styles: {
     tn:       '70x70#',
     small:    '150x150>',

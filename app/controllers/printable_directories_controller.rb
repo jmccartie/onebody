@@ -24,7 +24,7 @@ class PrintableDirectoriesController < ApplicationController
     respond_to do |format|
       format.html do
         if @file.file.present?
-          send_file @file.file.path, type: @file.file.content_type, filename: I18n.t('printable_directories.filename')
+          redirect_to @file.file.expiring_url
         end
       end
       format.js
